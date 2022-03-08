@@ -1,16 +1,19 @@
 {
-  "name": "axs-poc",
-  "version": "0.1",
-  "description": "AXS Crypto API integration PoC",
-  "main": "index.js",
-  "repository": "github.com/vidalpaul/axs-poc",
-  "license": "MIT",
-  "dependencies": {
-    "axie": "^2.0.3",
-    "express": "^4.17.3",
-    "web3": "^1.7.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
-  }
+   "name": "axs-poc",
+   "version": "0.1",
+   "description": "AXS Crypto API integration PoC",
+   "main": "index.js",
+   "repository": "github.com/vidalpaul/axs-poc",
+   "license": "MIT",
+   "scripts": {
+      "dev": "nodemon index.js"
+   },
+   "dependencies": {
+      "axie": "^2.0.3",
+      "express": "^4.17.3",
+      "web3": "^1.7.1"
+   },
+   "devDependencies": {
+      "nodemon": "^2.0.15"
+   }
 }
